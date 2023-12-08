@@ -1,8 +1,15 @@
 import fs from "fs";
 
-var inputFilename = "example";
-var input = fs.readFileSync(inputFilename).toString().split("\n");
+const inputFilename = "example";
+const input = fs.readFileSync(inputFilename).toString().split("\n");
 
-const main = (values) => {};
+const part1 = () => {};
 
-main(input);
+const part2 = () => {};
+
+const main = () => {
+  console.log("Part 1:", part1());
+  console.log("Part 2:", part2());
+};
+
+main();
